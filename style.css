@@ -60,9 +60,9 @@ body p{
     color: orange;
 }
 
-/* .first-part-left > p{
-    color: #696969;
-} */
+p{
+    text-align: justify;
+}
 
 .first-part-left > a{
     display: inline-block;
@@ -78,7 +78,11 @@ body p{
 /********* Top Section Ends here.**********/
 
 /********* Second Section start here.**********/
-
+.second-part-bg{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
 .second-part-left{
     flex-basis:45% ;
@@ -113,20 +117,50 @@ body p{
     font-weight: 700;
 
 }
+/********* Second Section ends here.**********/
 
+/********* First Section start here.**********/
+.third-part-bg{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
+.third-part > h2{
+    font-size: 2.5em;
+    margin: 5% 0 4% 0;
+}
 
+.third-part-content-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.third-part-content{
+    flex-basis:43.5% ;
+    padding: 3% 1% 8% 3%;
+    box-shadow: 5px 7px 40px grey;
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.tpcl{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
 
+.third-part-content h2{
+    font-size: 2.3em;
+}
 
-
-
-
-
-
-
-
-
+.third-part-content h3{
+    color: #ffa500;
+    margin: 5% 0 3% 0;
+}
 
 
 
