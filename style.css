@@ -18,9 +18,9 @@ body p{
     margin-bottom: 9%;
 }
 
-.full-screen:last-child{
+/* .full-screen:last-child{
     margin-bottom: 0%;
-}
+} */
 
 .first-part-bg{
     background-image: url('img/top-banner.png');
