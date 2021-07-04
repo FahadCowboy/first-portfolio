@@ -19,7 +19,7 @@ body p{
 }
 
 .full-screen:last-child{
-    margin-bottom: 0;
+    margin: 2% 0 2% 0;
 }
 
 .first-part-bg{
@@ -164,9 +164,9 @@ p{
 
 /********* Footer Section start here.**********/
 
-footer{
+/* footer{
     margin: 2% 0 2% 0;
-}
+} */
 
 
 
