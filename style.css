@@ -4,5 +4,160 @@
 }
 
 body{
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
+
+.full-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-part-bg{
+    background-image: url('img/top-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    max-width: 1160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.first-part-left{
+    flex-basis:45% ;
+}
+
+.first-part-right{
+    flex-basis:45% ;
+}
+
+.first-part-right > img{
+    width: 100%;
+}
+
+.first-part-left h1{
+    font-size: 3em;
+    margin: 8% 0 0 0;
+}
+
+.first-part-left h3{
+    margin: 8% 0 3% 0;   
+}
+
+.name-color{
+    color: orange;
+}
+
+.first-part-left > p{
+    color: #696969;
+}
+
+.first-part-left > a{
+    display: inline-block;
+    background: linear-gradient( 45deg, lightsalmon, tomato);
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 2% 8%;
+    border-radius: 5px;
+    margin: 4% 0 0 0;
+    font-weight: 700;
+
+}
+/********* Top Section Ends here.**********/
+
+/********* Second Section start here.**********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
