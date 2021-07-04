@@ -7,10 +7,19 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+body p{
+    color: #696969;
+}
+
 .full-screen{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 9%;
+}
+
+.full-screen:last-child{
+    margin-bottom: 0;
 }
 
 .first-part-bg{
@@ -51,15 +60,52 @@ body{
     color: orange;
 }
 
-.first-part-left > p{
+/* .first-part-left > p{
     color: #696969;
-}
+} */
 
 .first-part-left > a{
     display: inline-block;
     background: linear-gradient( 45deg, lightsalmon, tomato);
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 2% 8%;
+    border-radius: 5px;
+    margin: 4% 0 0 0;
+    font-weight: 700;
+}
+/********* Top Section Ends here.**********/
+
+/********* Second Section start here.**********/
+
+
+.second-part-left{
+    flex-basis:45% ;
+}
+
+.second-part-right{
+    flex-basis:45% ;
+}
+
+.second-part-left > img{
+    width: 100%;
+}
+
+.second-part-right h2{
+    font-size: 2.5em;
+    margin: 8% 0 0 0;
+}
+
+.second-part-right h3{
+    margin: 6% 0 0 0;
+}
+
+.second-part-right > a{
+    display: inline-block;
+    background: linear-gradient( 45deg, lightsalmon, tomato);
+    text-align: center;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 2% 8%;
     border-radius: 5px;
@@ -67,16 +113,6 @@ body{
     font-weight: 700;
 
 }
-/********* Top Section Ends here.**********/
-
-/********* Second Section start here.**********/
-
-
-
-
-
-
-
 
 
 
